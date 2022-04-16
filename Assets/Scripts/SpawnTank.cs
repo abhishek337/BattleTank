@@ -4,11 +4,20 @@ using UnityEngine;
 
 public class SpawnTank : MonoBehaviour
 {
-    public GameObject TankPrefab;
+    public TankView  tankView;
 
     // Start is called before the first frame update
     void Start()
     {
-        Instantiate(TankPrefab, transform.position, Quaternion.identity);
+        CreateModel();
+    }
+
+    void CreateModel()
+    {
+        TankModel tankModel = new TankModel();
+
+        TankController tankController = new TankController(tankView, tankModel);
+
+
     }
 }

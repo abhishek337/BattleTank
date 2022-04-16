@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e0aa40d981e0194894acdc5ef23ccc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TankPrefab: {fileID: 2162129670414802263, guid: 11a166bf969bb13408f373d23a9a9b72, type: 3}
+  tankView: {fileID: 7059023269707433307, guid: 11a166bf969bb13408f373d23a9a9b72, type: 3}
 --- !u!4 &961724010
 Transform:
   m_ObjectHideFlags: 0
@@ -245,7 +245,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1179543937}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 5, z: -12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
