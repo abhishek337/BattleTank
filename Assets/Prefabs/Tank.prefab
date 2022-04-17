@@ -301,6 +301,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Rb: {fileID: 5302714682709044123}
+  Childs:
+  - {fileID: 2162129670412861991}
+  - {fileID: 2162129670412861985}
+  - {fileID: 2162129670412861999}
+  - {fileID: 2162129670412861989}
 --- !u!54 &5302714682709044123
 Rigidbody:
   m_ObjectHideFlags: 0
